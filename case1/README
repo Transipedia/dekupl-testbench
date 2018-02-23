@@ -1,0 +1,17 @@
+in this testcase, there are 6 datasets, 2 conditions, and very few kmers in total.
+One of the kmers is found only in condition B (in all samples), 
+and another is found differentially between both conditions;
+all the other kmers are found in exactly the same number of times in both conditions
+
+
+Dependencies:
+Requires dekupl-run, wgs branch, to be somewhere on your system.
+From now on, we will assume it's in ~/dekupl-run.
+Also requires that dekupl-run has been compiled (i.e. been run once)
+and is working.
+To test this, go to your dekupl-run folder and type 'snakemake', 
+it will run the default test.
+
+To run this testcase, type:
+
+snakemake --snakefile ~/dekupl-run/Snakefile

@@ -1,0 +1,7 @@
+a kmer is found in only a subgroup of 2 individuals (samples) of condition A
+
+
+To run this testcase, type:
+
+snakemake --snakefile ~/dekupl-run/Snakefile
+
